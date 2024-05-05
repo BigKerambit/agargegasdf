@@ -1,0 +1,140 @@
+body {
+    background-image: url(./background.jpg);
+    background-position: center;
+}
+
+.centralContentCatalog { /*catalogPage*/
+    width: 1300px;
+    height: auto;
+    background-color: white;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+.headOfSite button {
+    border: none;
+    padding: 0px;
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.headOfSite img {
+    width: 100%;
+}
+
+.navigationPanel {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width: auto;
+    background-color: #F8DBDB;
+    border-radius: 20px;
+}
+
+.catalogButton {
+    position: relative;
+    display: inline-block;
+}
+
+.catalogList {
+    display: none;
+    position: absolute;
+    background-color: #F8DBDB;
+    padding: 15px 18px;
+    margin-left: 17px;
+}
+
+.catalogList a {
+    padding: 12px 20px;
+    display: block;
+    font-size: 20px;
+}
+
+.catalogList a:hover {
+    background-color: #f0a2a2;
+}
+
+.catalogButton:hover .catalogList {
+    display: block;
+}
+
+.navigationPanel svg {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navigationPanel button {
+    margin-left: 5px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.TextCategory {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.line-category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.catalogGrids {
+    display: grid;
+    grid-auto-rows: minmax(200px, auto);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.gridProd {
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.prodName {
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+    font-size: 20px;
+}
+.prodName button {
+    float: right;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+.gridProd img {
+    width: 100%;
+    display: block;
+}
+
+.gridProd div {
+    background-color: #F8DBDB;
+}
+
+.showMore {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 20px;
+    font-size: 26px;
+    color: black;
+}
+
+.footure {
+    margin-top: 50px;
+    height: 400px;
+    background-color: #F8DBDB;
+}
